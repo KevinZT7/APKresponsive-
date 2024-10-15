@@ -1,0 +1,36 @@
+.gracias-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  text-align: center;
+  background-color: #F1D7FF; 
+}
+
+.regresar-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f74780; 
+  color: white; 
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+.logo-container {
+  margin-top: 20px;
+}
+
+.logo {
+  width: 500px; 
+  height: auto;
+}
+
+.mensaje-gracias {
+  color: #F74780; 
+  margin-top: 15px; 
+}

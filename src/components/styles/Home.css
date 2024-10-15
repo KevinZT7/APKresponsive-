@@ -1,0 +1,91 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #F1D7FF; /* Rosa claro */
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.main-header {
+  background-color: hsl(279, 100%, 92%);
+  color: #F74780;
+  padding: 20px;
+}
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #F74780;
+  color: #F1D7FF;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: #F74780;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Centrar los botones horizontalmente */
+  gap: 20px; /* Separar los botones */
+  margin-bottom: 20px; /* Espacio entre los botones y el mensaje de bienvenida */
+}
+
+.nav-btn {
+  padding: 15px 30px;
+  background-color: #F74780;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #2980b9;
+}
+
+.welcome-message {
+  margin-bottom: 30px; /* Espacio entre el mensaje de bienvenida y la imagen */
+  font-size: 24px;
+  color: #333;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+}
