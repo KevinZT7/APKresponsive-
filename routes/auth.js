@@ -89,23 +89,13 @@ router.put('/update', authMiddleware, async (req, res) => {
     }
 });
 
-// Ruta para eliminar usuario
-router.delete('/delete', authMiddleware, async (req, res) => {
-    try {
-        // Buscar el usuario autenticado
-        const user = await User.findById(req.user.id);
-        if (!user) {
-            return res.status(404).json({ message: 'Usuario no encontrado' });
-        }
-
-        // Eliminar el usuario
-        await user.remove();
-
-        res.json({ message: 'Usuario eliminado exitosamente' });
-    } catch (error) {
-        res.status(500).json({ message: 'Error al eliminar el usuario', error });
-    }
-});
+// Aquí se eliminó la ruta para eliminar usuario
 
 module.exports = router;
+
+
+
+
+
+
 
