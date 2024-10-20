@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-api-autenticacion-backend",
+  "version": "1.0.0",
+  "description": "Backend para el proyecto de autenticación y API de pizza",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"npm run start:frontend\"",
+    "start:frontend": "cd ../frontend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "concurrently": "^7.0.0"
+  }
+}
+
