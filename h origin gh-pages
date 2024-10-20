@@ -1,0 +1,47 @@
+[33mcommit d52ecf2dd1eed182fa6b8650cc1a639288b76e03[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mgh-pages[m[33m, [m[1;31morigin/gh-pages[m[33m)[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Sun Oct 20 03:18:05 2024 -0500
+
+    Deploy to GitHub Pages
+
+[33mcommit ce422e02df2a82a59bb07ff271290fd318394acb[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Sun Oct 20 02:13:13 2024 -0500
+
+    Ignorar archivos de caché de node_modules
+
+[33mcommit c4d61c283fddeb4be4be931302656892a6f627cc[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Sat Oct 19 23:24:57 2024 -0500
+
+    React con responsive en vez de apk para github
+
+[33mcommit 9e48d55914be2b6397532bc3aecc0086a1bba35f[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Sat Oct 19 22:43:20 2024 -0500
+
+    React con responsive en vez de apk
+
+[33mcommit 542e27d66256b41ab6b07eb5d2256fee5227cb2e[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Fri Oct 18 03:16:55 2024 -0500
+
+    Apis de Pizzappcol
+
+[33mcommit 452f3e0f899e620c45d53874e91e3151c6e96a69[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Thu Oct 17 02:47:14 2024 -0500
+
+    Subida inicial del proyecto de las APIs
+
+[33mcommit aebf9b4303ef658f892fd79d79a257f3b287fef0[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Thu Oct 17 02:29:47 2024 -0500
+
+    Primer commit: Subida inicial del proyecto API
+
+[33mcommit 58bd1663337889e188ff98324ac4ccda1208a9db[m
+Author: KevinZ <kevinzunigatrujillo@gmail.com>
+Date:   Tue Oct 15 18:00:22 2024 -0500
+
+    Primer commit: Añadidos todos los archivos iniciales de Pizzaap
