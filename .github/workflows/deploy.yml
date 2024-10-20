@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Cambia 'main' por la rama que prefieras
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Usa un entorno de Ubuntu para ejecutar el despliegue
+
+    steps:
+      # Paso 1: Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Paso 2: Configurar Node.js (la versión que necesites)
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # Cambia '16' por la versión de Node.js que estés usando
+
+      # Paso 3: Instalar dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # Paso 4: Construir el proyecto (asegúrate de tener el script 'build' en package.json)
+      - name: Build the project
+        run: npm run build
+
+      # Paso 5: Desplegar en GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
